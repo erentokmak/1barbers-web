@@ -25,15 +25,15 @@ export function ModeToggle() {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
-        <DropdownMenuItem onClick={() => setTheme("light")}>
+        {/*<DropdownMenuItem onClick={() => setTheme("light")}>
           Açık
-        </DropdownMenuItem>
+        </DropdownMenuItem>*/}
         <DropdownMenuItem onClick={() => setTheme("dark")}>
           Koyu
         </DropdownMenuItem>
-        <DropdownMenuItem onClick={() => setTheme("system")}>
+        {/*<DropdownMenuItem onClick={() => setTheme("system")}>
           Sistem
-        </DropdownMenuItem>
+        </DropdownMenuItem>*/}
       </DropdownMenuContent>
     </DropdownMenu>
   )

@@ -50,8 +50,8 @@ function AppContent({ Component, pageProps }: AppProps) {
   return (
     <ThemeProvider
       attribute="class"
-      defaultTheme="light"
-      enableSystem
+      defaultTheme="dark"
+      //enableSystem
       disableTransitionOnChange
     >
       <ApolloProvider client={client}>
