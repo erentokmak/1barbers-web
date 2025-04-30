@@ -1000,10 +1000,11 @@ export default function ReservationPage() {
                                   country={"tr"}
                                   value={field.value}
                                   onChange={handlePhoneChange}
-                                  inputClass="!w-full !h-10 !text-xs !pl-12 !rounded-md !border-input"
-                                  containerClass="!w-full"
-                                  buttonClass="!h-10 !border !border-input !rounded-l-md"
-                                  dropdownClass="!w-[300px]"
+                                  inputClass="!w-full !h-10 !text-xs !pl-12 !rounded-md !border-input !bg-background"
+                                  containerClass="!w-full !bg-background"
+                                  buttonClass="!h-10 !border !border-input !rounded-l-md !bg-background"
+                                  dropdownClass="!w-[300px] !bg-background"
+                                  searchClass="!bg-background"
                                   enableSearch
                                   searchPlaceholder="Ülke Ara..."
                                   searchNotFound="Ülke Bulunamadı"
